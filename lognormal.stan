@@ -27,8 +27,8 @@ parameters {
 // and standard deviation 'sigma'.
 
 model {
-  mu ~ normal(10, 3);
-  sigma ~ gamma(1.25, 2);
+  mu ~ normal(11, 3);
+  sigma ~ inv_gamma(3, 1.25);
   y ~ lognormal(mu, sigma);
 }
 
