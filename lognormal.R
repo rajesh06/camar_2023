@@ -1,10 +1,10 @@
 easyr::begin() # An open source library created by my Oliver Wyman colleague Bryce Chamberlain
-set.seed(14159)
+set.seed(2023)
 
 
 # Simulate Claims ---------------------------------------------------------
 
-claims <- rlnorm(n = 100, meanlog = 10.5, sdlog = 1.5)
+claims <- rlnorm(n = 500, meanlog = 10.5, sdlog = 1.5)
 # mean = ~112e3 sd = 326e3
 
 
