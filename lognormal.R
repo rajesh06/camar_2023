@@ -4,7 +4,7 @@ set.seed(14159)
 
 # Simulate Claims ---------------------------------------------------------
 
-claims <- rlnorm(n = 100, meanlog = 10.5, sdlog = 1.5)
+claims <- rlnorm(n = 100, meanlog = 10.5, sdlog = 3.14)
 # mean = ~112e3 sd = 326e3
 
 
